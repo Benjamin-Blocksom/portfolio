@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery Sketch</title>
+    <style media="screen">
+      .deck, .work {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 1em;
+      }
+      .deck img, .work, img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sample Gallery for Portfolio Work Cards</h1>
+    </header>
+
+    <section class="deck">
+      <img src="https://picsum.photos/id/1001/250" alt="">
+      <img src="https://picsum.photos/id/610/300" alt="">
+      <img src="https://picsum.photos/id/988/400/600" alt="">
+      <img src="https://picsum.photos/id/810/500/300" alt="">
+      <img src="https://picsum.photos/id/237/600" alt="">
+    </section>
+    <h2>Work</h2>
+    <section class="work" id="websites">
+          <a href="https://gentle-reaches-69835.herokuapp.com/" target="_blank">
+            <img src="./images/jotter-down.png" alt="Jotter Down Microblogger">
+          </a>
+          <a href="#">
+            <img src="./images/MDN-layout-challenge.png" alt="Jotter Down Microblogger">
+          </a>
+          <a href="#">
+            <img src="./images/landing-page-benjamin.png" alt="Jotter Down Microblogger">
+          </a>
+          <a href="https://benjamin-blocksom.github.io/etchy-sketch/" target="_blank">
+            <img src="./images/etchy-sketch.png" alt="Etchy-sketch web app">
+          </a>
+          <a href="https://benjamin-blocksom.github.io/keys-make-sounds/" target="_blank">
+            <img src="./images/keys-make-sounds.png" alt="Keys-Make-Sounds web app">
+          </a>
+    </section>
+  </body>
+</html>
