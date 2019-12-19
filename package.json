@@ -1,0 +1,11 @@
+{
+  "name": "static-site-mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Benjamin-Blocksom/portfolio.git",
+  "author": "Benjamin Blocksom <benjamin.blocksom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "^1.60.0"
+  }
+}
